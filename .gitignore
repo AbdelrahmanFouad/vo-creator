@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Streamlit secrets (Do not commit secrets to Git; configure in Streamlit Cloud Dashboard)
+.streamlit/secrets.toml
+
+# Generated audio outputs
+output/
+*.wav
+*.mp3
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
